@@ -7,6 +7,7 @@ Repositório de João Antônio (LuKeT-Dev-Py) para reunir mini projetos desenvol
 | Projeto | Objetivo | Conhecimentos aplicados |
 |---|---|---|
 | [Registro de Estudos](registro-de-estudos/) | Registrar sessões e consultar o total de minutos estudados | Listas, dicionários, funções, módulos, validações e laços |
+| [Quiz no Terminal](quiz-no-terminal/) | Responder duas perguntas de Python e consultar a pontuação e as entradas inválidas | Listas, entrada de dados, condicionais, laços, contadores e métodos de string |
 
 ## Como executar
 
