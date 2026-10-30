@@ -9,6 +9,7 @@ Repositório de João Antônio (LuKeT-Dev-Py) para reunir mini projetos desenvol
 | [Registro de Estudos](registro-de-estudos/) | Registrar sessões e consultar o total de minutos estudados | Listas, dicionários, funções, módulos, validações e laços |
 | [Quiz no Terminal](quiz-no-terminal/) | Responder duas perguntas de Python e consultar a pontuação e as entradas inválidas | Listas, entrada de dados, condicionais, laços, contadores e métodos de string |
 | [Lista de Leituras](lista-de-leituras/) | Cadastrar títulos e recuperá-los entre execuções | Funções, módulos, listas, validações, exceções e persistência em JSON |
+| [Analisador de Textos](analisador-de-textos/) | Contar palavras e caracteres de textos informados no terminal | Strings, funções, módulos, dicionários, validações, exceções e menus |
 
 ## Como executar
 
@@ -26,4 +27,5 @@ python3 main.py
 - Novos mini projetos serão acrescentados ao índice conforme forem concluídos e conferidos.
 
 Estes programas são projetos de aprendizado. As funcionalidades e os resultados de verificação estão documentados em suas respectivas pastas.
+
 
