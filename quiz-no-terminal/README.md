@@ -1,51 +1,52 @@
-# Quiz no Terminal
+# Quiz no terminal
 
-## Objetivo
+Aplicação em Python com duas perguntas sobre a linguagem. Ao final, apresenta a pontuação e quantas entradas inválidas foram digitadas.
 
-Praticar conceitos fundamentais de Python: listas, entrada de dados, condições, repetição e validação de entradas.
+## O que faz
 
-## Funcionalidades
-
-- Apresenta duas perguntas, uma por vez, com alternativas.
-- Remove espaços extras e aceita letras maiúsculas ou minúsculas.
-- Solicita uma nova tentativa quando a alternativa não existe.
-- Informa se uma resposta válida está correta ou incorreta.
-- Soma um ponto por resposta correta.
-- Exibe a pontuação final e a quantidade de entradas inválidas.
-- Reinicia os dois contadores em zero a cada execução.
+- Apresenta uma pergunta por vez, com alternativas `a`, `b` e `c`.
+- Aceita maiúsculas e remove espaços nas extremidades.
+- Pede nova tentativa quando a alternativa não existe.
+- Avança após uma resposta válida, correta ou incorreta.
+- Soma um ponto por acerto e reinicia os contadores a cada execução.
 
 ## Como executar
 
-Na pasta do projeto, execute:
+Requer Python 3, sem dependências externas. Execução verificada com Python 3.12.14.
+
+A partir da raiz do repositório:
 
 ```bash
-python main.py
+cd quiz-no-terminal
+python3 main.py
 ```
 
-Depois, siga as perguntas apresentadas no terminal.
+No Windows, dentro da mesma pasta: `py main.py` ou `python main.py`.
 
 ## Exemplo
 
-Na primeira pergunta, a alternativa correta é `b`.
-
-Se o usuário digitar `z`, o programa informa que a entrada é inválida, acrescenta uma entrada inválida ao contador e solicita outra tentativa.
-
-Se digitar `a` ou `c`, o programa informa que a resposta está incorreta e segue para a próxima pergunta, sem somar pontos.
-
-Respondendo `z`, depois `b` e, na segunda pergunta, `a`, o resultado final será:
+Digite `z` na primeira pergunta: o programa registra uma entrada inválida e pede outra tentativa. Em seguida, responda `b` e, na segunda pergunta, `a`:
 
 ```text
 Pontuação: 2/2
 Entradas inválidas: 1
 ```
 
-## Casos verificados
+Na primeira pergunta, `a` ou `c` são respostas válidas, mas incorretas: o programa segue sem somar pontos.
 
-As entradas abaixo estão na ordem em que foram digitadas.
+## Código e verificação
 
-| Entradas | Pontuação final | Entradas inválidas |
-|---|---|---|
+O código está em [main.py](main.py). O exercício pratica listas, entrada de dados, condicionais, laços, contadores e métodos de string.
+
+O exemplo acima foi conferido por execução em Python 3.12.14. Os cenários já registrados no projeto são:
+
+| Entradas, na ordem | Pontuação | Entradas inválidas |
+| --- | --- | --- |
 | `b`, `a` | 2/2 | 0 |
 | `a`, `a` | 1/2 | 0 |
 | `c`, `b` | 0/2 | 0 |
 | Somente espaços, `z`, ` B `, `x`, ` A ` | 2/2 | 3 |
+
+## Limitações
+
+As duas perguntas estão fixas no código, e os resultados não são salvos. Não há uma suíte de testes automatizados incluída.
