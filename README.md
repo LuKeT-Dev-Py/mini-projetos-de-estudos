@@ -1,11 +1,12 @@
 # Mini projetos de estudos em Python
 
-Quatro aplicações de terminal desenvolvidas por João Antônio (LuKeT-Dev-Py) durante a prática de Python. Cada projeto tem código próprio, exemplos de uso e instruções de execução.
+Cinco aplicações de terminal desenvolvidas por João Antônio (LuKeT-Dev-Py) durante a prática de Python. Cada projeto tem código próprio, exemplos de uso e instruções de execução.
 
 ## Escolha um projeto
 
 | Projeto | O que faz | Conceitos aplicados | Armazenamento |
 | --- | --- | --- | --- |
+| [Checklist de Estudos](checklist-de-estudos/) | Cadastra duas tarefas e permite marcá-las como concluídas. | Listas, dicionários, funções, módulos, validação e seleção por índice. | Memória |
 | [Lista de Leituras](lista-de-leituras/) | Cadastra títulos e os recupera ao reabrir. | Funções, módulos, validação, exceções e arquivos JSON. | JSON |
 | [Analisador de Textos](analisador-de-textos/) | Conta palavras e caracteres e permite novas análises. | Strings, dicionários, funções, módulos e tratamento de entradas. | Sem histórico salvo |
 | [Registro de Estudos](registro-de-estudos/) | Registra sessões e soma o tempo estudado. | Listas, dicionários, funções, laços e validações. | Memória |
@@ -15,7 +16,7 @@ Para observar persistência entre execuções, comece pela Lista de Leituras. Pa
 
 ## Como executar
 
-Não há dependências externas. Os exemplos foram conferidos com Python 3.12.14; o Analisador de Textos exige **Python 3.12 ou superior** pela sintaxe utilizada. Veja os requisitos individuais nos READMEs.
+Não há dependências externas. Os exemplos foram conferidos com Python 3.12.14; o Analisador de Textos e o Checklist de Estudos exigem **Python 3.12 ou superior** pela sintaxe utilizada. Veja os requisitos individuais nos READMEs.
 
 Clone uma vez e entre na pasta do projeto escolhido:
 
